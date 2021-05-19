@@ -1,0 +1,65 @@
+body{
+  justify-content: center;
+  align-items: center;
+  background-color: #47B3DD;
+
+
+
+}
+
+.conatiner{
+  justify-content:center;
+  width: 700px;
+  height: auto;
+align-items: center;
+
+  position: absolute;
+	top:50%;
+
+	left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
+.first{
+  color: white;
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #940FA9;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+
+.conatiner .clcikbtn{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 300px 10px 300px;
+  align-items: center;
+  cursor: pointer;
+  background-color: #35408F;
+  border: none;
+  color: white;
+
+}
+
+.removebtn{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content:flex-end;
+  margin-left: 30px;
+  align-items: center;
+  background-color: #F62C6C;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+}
